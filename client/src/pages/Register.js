@@ -24,7 +24,7 @@ const Register = () => {
           <Form.Item label="Password" name="password">
             <input type="password" required/>
           </Form.Item>
-          <Link>Already user login here</Link>
+          <Link to="/login" className="ms-2">Already user login here</Link>
           <Form.Item>
             <button className='btn btn-primary' type='submit'>Register</button>
           </Form.Item>
